@@ -1,0 +1,512 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: Untitled
+SessionDate: 03-05-2020
+SessionTime: 21:14:07
+RandomSeed: -709969131
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 59.959
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 1
+	TrialID: 1
+	stimuli: zinner
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 1
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 7949
+	black2.DurationError: -999999
+	black2.RTTime: 8451
+	black2.ACC: 1
+	black2.RT: 502
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 18
+	TrialID: 18
+	stimuli: better
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 2
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 11518
+	black2.DurationError: -999999
+	black2.RTTime: 12021
+	black2.ACC: 1
+	black2.RT: 503
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 3
+	TrialID: 3
+	stimuli: noster
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 3
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 15054
+	black2.DurationError: -999999
+	black2.RTTime: 15831
+	black2.ACC: 1
+	black2.RT: 777
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 12
+	TrialID: 12
+	stimuli: foggy
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 4
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 18823
+	black2.DurationError: -999999
+	black2.RTTime: 19791
+	black2.ACC: 1
+	black2.RT: 968
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 9
+	TrialID: 9
+	stimuli: quepping
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 5
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 22793
+	black2.DurationError: -999999
+	black2.RTTime: 23551
+	black2.ACC: 0
+	black2.RT: 758
+	black2.RESP: j
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 22
+	TrialID: 22
+	stimuli: wisely
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 6
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 26545
+	black2.DurationError: -999999
+	black2.RTTime: 27301
+	black2.ACC: 1
+	black2.RT: 756
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 17
+	TrialID: 17
+	stimuli: fletter
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 7
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 30298
+	black2.DurationError: -999999
+	black2.RTTime: 30761
+	black2.ACC: 1
+	black2.RT: 463
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 7
+	TrialID: 7
+	stimuli: bistful
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 8
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 33784
+	black2.DurationError: -999999
+	black2.RTTime: 34461
+	black2.ACC: 1
+	black2.RT: 677
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 24
+	TrialID: 24
+	stimuli: sleeper
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 9
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 37453
+	black2.DurationError: -999999
+	black2.RTTime: 37912
+	black2.ACC: 1
+	black2.RT: 459
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 16
+	TrialID: 16
+	stimuli: saddle
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 10
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 40905
+	black2.DurationError: -999999
+	black2.RTTime: 41632
+	black2.ACC: 1
+	black2.RT: 727
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 6
+	TrialID: 6
+	stimuli: glumly
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 11
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 44624
+	black2.DurationError: -999999
+	black2.RTTime: 45212
+	black2.ACC: 0
+	black2.RT: 588
+	black2.RESP: f
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 8
+	TrialID: 8
+	stimuli: fistful
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 12
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 48210
+	black2.DurationError: -999999
+	black2.RTTime: 48902
+	black2.ACC: 0
+	black2.RT: 692
+	black2.RESP: f
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 2
+	TrialID: 2
+	stimuli: dinner
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 13
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 51896
+	black2.DurationError: -999999
+	black2.RTTime: 52672
+	black2.ACC: 0
+	black2.RT: 776
+	black2.RESP: f
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 10
+	TrialID: 10
+	stimuli: stepping
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 14
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 55665
+	black2.DurationError: -999999
+	black2.RTTime: 56062
+	black2.ACC: 1
+	black2.RT: 397
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 19
+	TrialID: 19
+	stimuli: wanning
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 15
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 59068
+	black2.DurationError: -999999
+	black2.RTTime: 59663
+	black2.ACC: 0
+	black2.RT: 595
+	black2.RESP: j
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 13
+	TrialID: 13
+	stimuli: glundle
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 16
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 62653
+	black2.DurationError: -999999
+	black2.RTTime: 63062
+	black2.ACC: 1
+	black2.RT: 409
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 14
+	TrialID: 14
+	stimuli: bundle
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 17
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 66056
+	black2.DurationError: -999999
+	black2.RTTime: 66232
+	black2.ACC: 1
+	black2.RT: 176
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 11
+	TrialID: 11
+	stimuli: croggy
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 18
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 69225
+	black2.DurationError: -999999
+	black2.RTTime: 69382
+	black2.ACC: 1
+	black2.RT: 157
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 20
+	TrialID: 20
+	stimuli: spanning
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 19
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 72377
+	black2.DurationError: -999999
+	black2.RTTime: 72792
+	black2.ACC: 1
+	black2.RT: 415
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 4
+	TrialID: 4
+	stimuli: roster
+	Type: 1
+	CorrectResponse: j
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 20
+	Running: LxList
+	black2.OnsetDelay: 14
+	black2.OnsetTime: 75796
+	black2.DurationError: -999999
+	black2.RTTime: 76052
+	black2.ACC: 1
+	black2.RT: 256
+	black2.RESP: j
+	black2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 21
+	TrialID: 21
+	stimuli: kizely
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 21
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 79048
+	black2.DurationError: -999999
+	black2.RTTime: 79402
+	black2.ACC: 1
+	black2.RT: 354
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 23
+	TrialID: 23
+	stimuli: cleeper
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 22
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 82400
+	black2.DurationError: -999999
+	black2.RTTime: 82622
+	black2.ACC: 0
+	black2.RT: 222
+	black2.RESP: j
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 15
+	TrialID: 15
+	stimuli: traddle
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 23
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 85619
+	black2.DurationError: -999999
+	black2.RTTime: 85792
+	black2.ACC: 1
+	black2.RT: 173
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	LxList: 5
+	TrialID: 5
+	stimuli: vumly
+	Type: 0
+	CorrectResponse: f
+	Procedure: LxProc
+	LxList.Cycle: 1
+	LxList.Sample: 24
+	Running: LxList
+	black2.OnsetDelay: 13
+	black2.OnsetTime: 88788
+	black2.DurationError: -999999
+	black2.RTTime: 89252
+	black2.ACC: 1
+	black2.RT: 464
+	black2.RESP: f
+	black2.CRESP: f
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: Untitled
+SessionDate: 03-05-2020
+SessionTime: 21:14:07
+RandomSeed: -709969131
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 59.959
+*** LogFrame End ***
