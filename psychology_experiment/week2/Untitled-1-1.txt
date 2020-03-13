@@ -1,0 +1,1280 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: Untitled
+SessionDate: 03-13-2020
+SessionTime: 17:35:45
+RandomSeed: -518442963
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 59.960
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 2
+	trialIO: 2
+	stimuli: 89
+	type: 1
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 1
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 11
+	trialIO: 11
+	stimuli: 27
+	type: 2
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 2
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 16
+	trialIO: ?
+	stimuli: 87
+	type: 1
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 3
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 24
+	trialIO: ?
+	stimuli: 94
+	type: 2
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 4
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 20
+	trialIO: ?
+	stimuli: 93
+	type: 2
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 5
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 21
+	trialIO: ?
+	stimuli: 73
+	type: 2
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 6
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 17
+	trialIO: ?
+	stimuli: 42
+	type: 1
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 7
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 23
+	trialIO: ?
+	stimuli: 72
+	type: 2
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 8
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 14
+	trialIO: ?
+	stimuli: 98
+	type: 1
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 9
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 18
+	trialIO: ?
+	stimuli: 97
+	type: 1
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 10
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 7
+	trialIO: 7
+	stimuli: 28
+	type: 2
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 11
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 6
+	trialIO: 6
+	stimuli: 79
+	type: 1
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 12
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 4
+	trialIO: 4
+	stimuli: 78
+	type: 1
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 13
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 13
+	trialIO: ?
+	stimuli: 32
+	type: 1
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 14
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 1
+	trialIO: 1
+	stimuli: 23
+	type: 1
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 15
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 10
+	trialIO: 10
+	stimuli: 48
+	type: 2
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 16
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 8
+	trialIO: 8
+	stimuli: 39
+	type: 2
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 17
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 22
+	trialIO: ?
+	stimuli: 84
+	type: 2
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 18
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 15
+	trialIO: ?
+	stimuli: 43
+	type: 1
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 19
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 19
+	trialIO: ?
+	stimuli: 82
+	type: 2
+	correctresponse: f
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 20
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 5
+	trialIO: 5
+	stimuli: 24
+	type: 1
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 21
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 12
+	trialIO: 12
+	stimuli: 49
+	type: 2
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 22
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 9
+	trialIO: 9
+	stimuli: 37
+	type: 2
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 23
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	preexperiment: 3
+	trialIO: 3
+	stimuli: 34
+	type: 1
+	correctresponse: j
+	Procedure: preexplist
+	preexperiment.Cycle: 1
+	preexperiment.Sample: 24
+	Running: preexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 25
+	trialID2: 25
+	stimuli2: 23
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 1
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 153482
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 153747
+	waiting2.ACC: 1
+	waiting2.RT: 265
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 26
+	trialID2: 26
+	stimuli2: 89
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 2
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 156767
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 157098
+	waiting2.ACC: 1
+	waiting2.RT: 331
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 17
+	trialID2: 17
+	stimuli2: 42
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 3
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 160103
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 160358
+	waiting2.ACC: 1
+	waiting2.RT: 255
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 48
+	trialID2: 48
+	stimuli2: 94
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 4
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 163355
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 163677
+	waiting2.ACC: 1
+	waiting2.RT: 322
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 19
+	trialID2: 19
+	stimuli2: 82
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 5
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 166674
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 166927
+	waiting2.ACC: 1
+	waiting2.RT: 253
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 28
+	trialID2: 28
+	stimuli2: 78
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 6
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 169926
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 170277
+	waiting2.ACC: 1
+	waiting2.RT: 351
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 42
+	trialID2: 42
+	stimuli2: 97
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 7
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 173279
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 173597
+	waiting2.ACC: 1
+	waiting2.RT: 318
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 37
+	trialID2: 37
+	stimuli2: 32
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 8
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 176598
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 176877
+	waiting2.ACC: 1
+	waiting2.RT: 279
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 14
+	trialID2: 14
+	stimuli2: 98
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 9
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 179883
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 180227
+	waiting2.ACC: 1
+	waiting2.RT: 344
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 22
+	trialID2: 22
+	stimuli2: 84
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 10
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 183236
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 183437
+	waiting2.ACC: 1
+	waiting2.RT: 201
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 21
+	trialID2: 21
+	stimuli2: 73
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 11
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 186454
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 186637
+	waiting2.ACC: 1
+	waiting2.RT: 183
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 18
+	trialID2: 18
+	stimuli2: 97
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 12
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 189640
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 189837
+	waiting2.ACC: 1
+	waiting2.RT: 197
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 39
+	trialID2: 39
+	stimuli2: 43
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 13
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 192842
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 193057
+	waiting2.ACC: 1
+	waiting2.RT: 215
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 44
+	trialID2: 44
+	stimuli2: 93
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 14
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 196061
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 196317
+	waiting2.ACC: 1
+	waiting2.RT: 256
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 43
+	trialID2: 43
+	stimuli2: 82
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 15
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 199313
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 199577
+	waiting2.ACC: 1
+	waiting2.RT: 264
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 15
+	trialID2: 15
+	stimuli2: 43
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 16
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 202582
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 202807
+	waiting2.ACC: 1
+	waiting2.RT: 225
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 9
+	trialID2: 9
+	stimuli2: 37
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 17
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 205801
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 206137
+	waiting2.ACC: 1
+	waiting2.RT: 336
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 11
+	trialID2: 11
+	stimuli2: 27
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 18
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 209137
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 209407
+	waiting2.ACC: 1
+	waiting2.RT: 270
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 41
+	trialID2: 41
+	stimuli2: 42
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 19
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 212406
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 212687
+	waiting2.ACC: 1
+	waiting2.RT: 281
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 34
+	trialID2: 34
+	stimuli2: 48
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 20
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 215691
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 215859
+	waiting2.ACC: 0
+	waiting2.RT: 168
+	waiting2.RESP: f
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 40
+	trialID2: 40
+	stimuli2: 87
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 21
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 218860
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 219108
+	waiting2.ACC: 1
+	waiting2.RT: 248
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 2
+	trialID2: 2
+	stimuli2: 89
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 22
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 222112
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 222488
+	waiting2.ACC: 0
+	waiting2.RT: 376
+	waiting2.RESP: f
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 46
+	trialID2: 46
+	stimuli2: 84
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 23
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 225498
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 225718
+	waiting2.ACC: 1
+	waiting2.RT: 220
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 10
+	trialID2: 10
+	stimuli2: 48
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 24
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 228717
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 228958
+	waiting2.ACC: 1
+	waiting2.RT: 241
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 1
+	trialID2: 1
+	stimuli2: 23
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 25
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 231952
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 232268
+	waiting2.ACC: 1
+	waiting2.RT: 316
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 36
+	trialID2: 36
+	stimuli2: 49
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 26
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 235271
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 235628
+	waiting2.ACC: 1
+	waiting2.RT: 357
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 35
+	trialID2: 35
+	stimuli2: 27
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 27
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 238624
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 238978
+	waiting2.ACC: 1
+	waiting2.RT: 354
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 31
+	trialID2: 31
+	stimuli2: 28
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 28
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 241976
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 242238
+	waiting2.ACC: 1
+	waiting2.RT: 262
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 16
+	trialID2: 16
+	stimuli2: 87
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 29
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 245228
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 245528
+	waiting2.ACC: 1
+	waiting2.RT: 300
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 7
+	trialID2: 7
+	stimuli2: 28
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 30
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 248530
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 248798
+	waiting2.ACC: 1
+	waiting2.RT: 268
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 3
+	trialID2: 3
+	stimuli2: 34
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 31
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 251799
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 252028
+	waiting2.ACC: 1
+	waiting2.RT: 229
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 4
+	trialID2: 4
+	stimuli2: 78
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 32
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 255018
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 255238
+	waiting2.ACC: 1
+	waiting2.RT: 220
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 24
+	trialID2: 24
+	stimuli2: 94
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 33
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 258237
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 258479
+	waiting2.ACC: 1
+	waiting2.RT: 242
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 5
+	trialID2: 5
+	stimuli2: 24
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 34
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 261473
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 261738
+	waiting2.ACC: 1
+	waiting2.RT: 265
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 6
+	trialID2: 6
+	stimuli2: 79
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 35
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 264758
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 265028
+	waiting2.ACC: 1
+	waiting2.RT: 270
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 12
+	trialID2: 12
+	stimuli2: 49
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 36
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 268027
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 268308
+	waiting2.ACC: 1
+	waiting2.RT: 281
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 29
+	trialID2: 29
+	stimuli2: 24
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 37
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 271313
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 271609
+	waiting2.ACC: 1
+	waiting2.RT: 296
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 33
+	trialID2: 33
+	stimuli2: 37
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 38
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 274615
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 274928
+	waiting2.ACC: 1
+	waiting2.RT: 313
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 47
+	trialID2: 47
+	stimuli2: 72
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 39
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 277934
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 278438
+	waiting2.ACC: 1
+	waiting2.RT: 504
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 27
+	trialID2: 27
+	stimuli2: 34
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 40
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 281436
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 281738
+	waiting2.ACC: 1
+	waiting2.RT: 302
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 13
+	trialID2: 13
+	stimuli2: 32
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 41
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 284738
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 284998
+	waiting2.ACC: 1
+	waiting2.RT: 260
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 23
+	trialID2: 23
+	stimuli2: 72
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 42
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 287991
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 288209
+	waiting2.ACC: 1
+	waiting2.RT: 218
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 45
+	trialID2: 45
+	stimuli2: 73
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 43
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 291210
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 291449
+	waiting2.ACC: 1
+	waiting2.RT: 239
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 8
+	trialID2: 8
+	stimuli2: 39
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 44
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 294445
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 294739
+	waiting2.ACC: 1
+	waiting2.RT: 294
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 32
+	trialID2: 32
+	stimuli2: 39
+	type2: 2
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 45
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 297731
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 298059
+	waiting2.ACC: 1
+	waiting2.RT: 328
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 30
+	trialID2: 30
+	stimuli2: 79
+	type2: 1
+	correctresponse2: j
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 46
+	waiting2.OnsetDelay: 14
+	waiting2.OnsetTime: 301050
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 301289
+	waiting2.ACC: 1
+	waiting2.RT: 239
+	waiting2.RESP: j
+	waiting2.CRESP: j
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 20
+	trialID2: 20
+	stimuli2: 93
+	type2: 2
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 47
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 304285
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 304509
+	waiting2.ACC: 1
+	waiting2.RT: 224
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	Procedure: explist
+	wholeexperiment: 38
+	trialID2: 38
+	stimuli2: 98
+	type2: 1
+	correctresponse2: f
+	Running: wholeexperiment
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 48
+	waiting2.OnsetDelay: 13
+	waiting2.OnsetTime: 307504
+	waiting2.DurationError: -999999
+	waiting2.RTTime: 307879
+	waiting2.ACC: 1
+	waiting2.RT: 375
+	waiting2.RESP: f
+	waiting2.CRESP: f
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: Untitled
+SessionDate: 03-13-2020
+SessionTime: 17:35:45
+RandomSeed: -518442963
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 59.960
+*** LogFrame End ***

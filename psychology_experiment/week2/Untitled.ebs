@@ -1,0 +1,1079 @@
+'
+'
+'
+'	C:\week2\Untitled.ebs
+'	Generated on: 3/13/2020	17:35:45
+'
+'
+'	This file generated with E-Studio interface.
+'	E-Prime Copyright © 2002 Psychology Software Tools.
+'	ALL RIGHTS RESERVED
+
+'	Legal use of this experiment script requires a full E-Prime or Runtime License.
+'
+'
+'	Author:
+'		zby15522145335@163.com (Beijing Normal University)
+'
+'
+'
+'
+
+Option CStrings On
+Dim ebContext as Context
+
+
+'--------------------------------------------------------------------------
+' Class Declarations
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+'InitImageDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitImageDisplayDefaults(theImageDisplay As ImageDisplay)
+
+	If theImageDisplay Is Nothing Then Exit Sub
+
+	theImageDisplay.X = "center"
+	theImageDisplay.Y = "center"
+	theImageDisplay.Width = "100%"
+	theImageDisplay.Height = "100%"
+	theImageDisplay.BackColor = CColor("black")
+	theImageDisplay.BackStyle = "opaque"
+	theImageDisplay.BorderColor = CColor("black")
+	theImageDisplay.BorderWidth = CLng("0")
+	theImageDisplay.XAlign = "center"
+	theImageDisplay.YAlign = "center"
+	theImageDisplay.AlignHorizontal = "center"
+	theImageDisplay.AlignVertical = "center"
+	theImageDisplay.ClearAfter = CLogical("No")
+	theImageDisplay.UseSourceColorKey = CLogical("No")
+	theImageDisplay.SourceColorKey = CColor("black")
+	theImageDisplay.MirrorLeftRight = CLogical("No")
+	theImageDisplay.MirrorUpDown = CLogical("No")
+	theImageDisplay.Stretch = CLogical("No")
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+' Instance Declarations
+'--------------------------------------------------------------------------
+Dim Display As DisplayDevice
+Dim Sound As SoundDevice
+Dim Keyboard As KeyboardDevice
+Dim Mouse As MouseDevice
+Dim SessionProc As Procedure
+
+Dim instruction As ImageDisplay
+Dim instructionEchoClients As EchoClientCollection
+
+Dim black As ImageDisplay
+
+Dim preexperiment As List
+
+Dim instruction2 As ImageDisplay
+Dim instruction2EchoClients As EchoClientCollection
+
+Dim black2 As ImageDisplay
+
+Dim wholeexperiment As List
+
+Dim byebye As ImageDisplay
+Dim byebyeEchoClients As EchoClientCollection
+
+Dim preexplist As Procedure
+
+Dim fixation As ImageDisplay
+
+Dim black3 As ImageDisplay
+
+Dim stimulus As ImageDisplay
+
+Dim waiting As ImageDisplay
+Dim waitingEchoClients As EchoClientCollection
+
+Dim interval As ImageDisplay
+
+Dim explist As Procedure
+
+Dim checkpic As ImageDisplay
+Dim checkpicEchoClients As EchoClientCollection
+
+Dim fixation2 As ImageDisplay
+
+Dim black4 As ImageDisplay
+
+Dim stimulus2 As ImageDisplay
+
+Dim waiting2 As ImageDisplay
+Dim waiting2EchoClients As EchoClientCollection
+
+Dim interval2 As ImageDisplay
+
+
+
+'--------------------------------------------------------------------------
+' Package Declare Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' User Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Global Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Routines
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Implementation
+'--------------------------------------------------------------------------
+Sub SessionProc_Run(c as Context)
+	
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	'	Label - place1 BEGIN
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+place1:
+	If Err.Number = ebInputAccepted Then
+		Err.Clear
+		Resume place1Resume
+	ElseIf Err.Number <> 0 Then
+		'NOTE: If you receive a runtime error here, it
+		' is because a runtime error other than ebInputAccepted
+		' was thrown (ebInputAccepted for catching input masks that jump).
+		'You are encouraged to either handle the error so that
+		' it is not thrown in the future or will have to set up
+		' your own error handler, which will also need to take
+		' into account for any input masks that jump.
+		'
+		'Raise the error so the default error handler will show the message
+		Err.Raise Err.Number
+	End If
+
+place1Resume:
+
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	'	Label - place1 END
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+	
+	
+	instruction.InputMasks.Reset
+	
+	instructionEchoClients.RemoveAll
+	instruction.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(instruction.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	instruction.Run
+	
+	black.Run
+	preexperiment.Run c
+	
+	
+	checkpic.InputMasks.Reset
+	
+	checkpicEchoClients.RemoveAll
+	checkpic.InputMasks.Add Keyboard.CreateInputMask("pq", "", CLng(checkpic.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	checkpic.Run
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - checking BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	if checkpic. Resp="q" then
+   goto place1
+else
+   goto place2
+end if
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - checking END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	'	Label - place2 BEGIN
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+place2:
+	If Err.Number = ebInputAccepted Then
+		Err.Clear
+		Resume place2Resume
+	ElseIf Err.Number <> 0 Then
+		'NOTE: If you receive a runtime error here, it
+		' is because a runtime error other than ebInputAccepted
+		' was thrown (ebInputAccepted for catching input masks that jump).
+		'You are encouraged to either handle the error so that
+		' it is not thrown in the future or will have to set up
+		' your own error handler, which will also need to take
+		' into account for any input masks that jump.
+		'
+		'Raise the error so the default error handler will show the message
+		Err.Raise Err.Number
+	End If
+
+place2Resume:
+
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	'	Label - place2 END
+	''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+	
+	
+	instruction2.InputMasks.Reset
+	
+	instruction2EchoClients.RemoveAll
+	instruction2.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(instruction2.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	instruction2.Run
+	
+	black2.Run
+	wholeexperiment.Run c
+	
+	
+	byebye.InputMasks.Reset
+	
+	byebyeEchoClients.RemoveAll
+	byebye.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(byebye.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	byebye.Run
+
+	c.Log
+End Sub
+
+Sub preexplist_Run(c as Context)
+	
+	fixation.Run
+	
+	black3.Run
+	
+	stimulus.Filename = "a" &_ 
+				c.GetAttrib("stimuli") &_ 
+				".bmp"
+	stimulus.Load
+	stimulus.Run
+	
+	
+	waiting.InputMasks.Reset
+	
+	waitingEchoClients.RemoveAll
+	waiting.InputMasks.Add Keyboard.CreateInputMask("fj", c.GetAttrib("correctresponse"), CLng(waiting.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	waiting.Run
+	
+	interval.Run
+
+	c.Log
+End Sub
+
+Sub explist_Run(c as Context)
+	
+	fixation2.Run
+	
+	black4.Run
+	
+	stimulus2.Filename = "a" &_ 
+				c.GetAttrib("stimuli2") &_ 
+				".bmp"
+	stimulus2.Load
+	stimulus2.Run
+	
+	
+	waiting2.InputMasks.Reset
+	
+	waiting2EchoClients.RemoveAll
+	waiting2.InputMasks.Add Keyboard.CreateInputMask("fj", c.GetAttrib("correctresponse2"), CLng(waiting2.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	waiting2.Run
+	c.SetAttrib "waiting2.OnsetDelay", waiting2.OnsetDelay
+	c.SetAttrib "waiting2.OnsetTime", waiting2.OnsetTime
+	c.SetAttrib "waiting2.DurationError", waiting2.DurationError
+	c.SetAttrib "waiting2.RTTime", waiting2.RTTime
+	c.SetAttrib "waiting2.ACC", waiting2.ACC
+	c.SetAttrib "waiting2.RT", waiting2.RT
+	c.SetAttrib "waiting2.RESP", waiting2.RESP
+	c.SetAttrib "waiting2.CRESP", waiting2.CRESP
+	
+	
+	interval2.Run
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - recording BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+Open "result.txt" For Append As #1
+Print #1, c.GetAttrib("stimuli2"), c.GetAttrib("type2"), waiting2.RT+120, waiting2.ACC
+Close #1
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - recording END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+	c.SetAttrib "waiting2.OnsetDelay", waiting2.OnsetDelay
+	c.SetAttrib "waiting2.OnsetTime", waiting2.OnsetTime
+	c.SetAttrib "waiting2.DurationError", waiting2.DurationError
+	c.SetAttrib "waiting2.RTTime", waiting2.RTTime
+	c.SetAttrib "waiting2.ACC", waiting2.ACC
+	c.SetAttrib "waiting2.RT", waiting2.RT
+	c.SetAttrib "waiting2.RESP", waiting2.RESP
+	c.SetAttrib "waiting2.CRESP", waiting2.CRESP
+	
+
+	c.Log
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitDevices
+'
+'--------------------------------------------------------------------------
+Sub InitDevices(c As Context)
+
+
+
+	SetOSThreadPriority 3
+
+
+	Set Display = New DisplayDevice
+	Display.Name = "Display"
+
+	Dim DisplayDisplayDeviceInfo As DisplayDeviceInfo
+	DisplayDisplayDeviceInfo.XRes = 1024
+	DisplayDisplayDeviceInfo.YRes = 768
+	DisplayDisplayDeviceInfo.ColorDepth = 32
+	DisplayDisplayDeviceInfo.RefreshRate = 0
+	DisplayDisplayDeviceInfo.NumPages = 0
+
+	Display.Open DisplayDisplayDeviceInfo
+	c.SetAttrib "Display.RefreshRate", Format$(Display.CalculatedRefreshRate, "0.000")
+
+	Set Sound = New SoundDevice
+	Sound.Name = "Sound"
+
+	Dim SoundSoundOutDeviceInfo As SoundDeviceInfo
+	SoundSoundOutDeviceInfo.Channels = 2
+	SoundSoundOutDeviceInfo.SamplesPerSecond = 22050
+	SoundSoundOutDeviceInfo.BitsPerSample = 16
+	
+	Set Keyboard = New KeyboardDevice
+	Keyboard.Name = "Keyboard"
+
+	Dim KeyboardKeyboardDeviceInfo as KeyboardDeviceInfo
+	KeyboardKeyboardDeviceInfo.CollectionMode = ebPressesOnly
+	KeyboardKeyboardDeviceInfo.CapsLock = ebCapsLockOff
+	KeyboardKeyboardDeviceInfo.NumLock = ebNumLockOn
+	Keyboard.Open KeyboardKeyboardDeviceInfo
+	
+	Set Mouse = New MouseDevice
+	Mouse.Name = "Mouse"
+
+	Dim MouseMouseDeviceInfo as MouseDeviceInfo
+	MouseMouseDeviceInfo.OpenMode = ebMouseOpenModeDirect
+	MouseMouseDeviceInfo.CollectionMode = ebPressesOnly
+	MouseMouseDeviceInfo.ShowCursor = False
+	Mouse.Open MouseMouseDeviceInfo
+
+
+	SetOSThreadPriority 0
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitObjects
+'
+'--------------------------------------------------------------------------
+Sub InitObjects(c As Context)
+
+	Set SessionProc = New Procedure
+	SessionProc.Name = "SessionProc"
+	SessionProc.Tag = ""
+	SessionProc.Subroutine = "SessionProc_Run"
+
+	Set instruction = New ImageDisplay
+	instruction.Name = "instruction"
+	instruction.Tag = ""
+
+	Set instructionEchoClients = New EchoClientCollection
+	instruction.Filename = "instruction.bmp"
+	instruction.Load
+
+	InitImageDisplayDefaults instruction
+
+	instruction.Duration = CLng("-1")
+	instruction.TimingMode = ebTimingModeEvent
+	instruction.PreRelease = Val("0")
+
+	instruction.OnsetSync = 1
+	instruction.OffsetSync = 0
+
+	Set black = New ImageDisplay
+	black.Name = "black"
+	black.Tag = ""
+	black.Filename = "black.bmp"
+	black.Load
+
+	InitImageDisplayDefaults black
+
+	black.Duration = CLng("1000")
+	black.TimingMode = ebTimingModeEvent
+	black.PreRelease = Val("0")
+
+	black.OnsetSync = 1
+	black.OffsetSync = 0
+
+	Set preexperiment = New List
+	preexperiment.Name = "preexperiment"
+	preexperiment.Tag = ""
+
+	'Initialization for preexperiment
+	
+	Set preexperiment.Order = New RandomOrder
+	Set preexperiment.Deletion = NoDeletion
+	preexperiment.ResetEveryRun = False
+
+	' Create the column headings
+	preexperiment.AddAttrib "trialIO"
+	preexperiment.AddAttrib "stimuli"
+	preexperiment.AddAttrib "type"
+	preexperiment.AddAttrib "correctresponse"
+	preexperiment.Filename = ""
+	preexperiment.LoadMethod = ebLoadMethodEmbedded
+
+	preexperiment.Load
+
+	Set preexperiment.TerminateCondition = Cycles(1)
+	Set preexperiment.ResetCondition = Samples(24)
+	preexperiment.Reset
+	
+	Set instruction2 = New ImageDisplay
+	instruction2.Name = "instruction2"
+	instruction2.Tag = ""
+
+	Set instruction2EchoClients = New EchoClientCollection
+	instruction2.Filename = "instruction.bmp"
+	instruction2.Load
+
+	InitImageDisplayDefaults instruction2
+
+	instruction2.Duration = CLng("-1")
+	instruction2.TimingMode = ebTimingModeEvent
+	instruction2.PreRelease = Val("0")
+
+	instruction2.OnsetSync = 1
+	instruction2.OffsetSync = 0
+
+	Set black2 = New ImageDisplay
+	black2.Name = "black2"
+	black2.Tag = ""
+	black2.Filename = "black.bmp"
+	black2.Load
+
+	InitImageDisplayDefaults black2
+
+	black2.Duration = CLng("1000")
+	black2.TimingMode = ebTimingModeEvent
+	black2.PreRelease = Val("0")
+
+	black2.OnsetSync = 1
+	black2.OffsetSync = 0
+
+	Set wholeexperiment = New List
+	wholeexperiment.Name = "wholeexperiment"
+	wholeexperiment.Tag = ""
+
+	'Initialization for wholeexperiment
+	
+	Set wholeexperiment.Order = New RandomOrder
+	Set wholeexperiment.Deletion = NoDeletion
+	wholeexperiment.ResetEveryRun = False
+
+	' Create the column headings
+	wholeexperiment.AddAttrib "trialID2"
+	wholeexperiment.AddAttrib "stimuli2"
+	wholeexperiment.AddAttrib "type2"
+	wholeexperiment.AddAttrib "correctresponse2"
+	wholeexperiment.Filename = ""
+	wholeexperiment.LoadMethod = ebLoadMethodEmbedded
+
+	wholeexperiment.Load
+
+	Set wholeexperiment.TerminateCondition = Cycles(1)
+	Set wholeexperiment.ResetCondition = Samples(48)
+	wholeexperiment.Reset
+	
+	Set byebye = New ImageDisplay
+	byebye.Name = "byebye"
+	byebye.Tag = ""
+
+	Set byebyeEchoClients = New EchoClientCollection
+	byebye.Filename = "byebye.bmp"
+	byebye.Load
+
+	InitImageDisplayDefaults byebye
+
+	byebye.Duration = CLng("-1")
+	byebye.TimingMode = ebTimingModeEvent
+	byebye.PreRelease = Val("0")
+
+	byebye.OnsetSync = 1
+	byebye.OffsetSync = 0
+
+	Set preexplist = New Procedure
+	preexplist.Name = "preexplist"
+	preexplist.Tag = ""
+	preexplist.Subroutine = "preexplist_Run"
+
+	Set fixation = New ImageDisplay
+	fixation.Name = "fixation"
+	fixation.Tag = ""
+	fixation.Filename = "fixation.bmp"
+	fixation.Load
+
+	InitImageDisplayDefaults fixation
+
+	fixation.Duration = CLng("600")
+	fixation.TimingMode = ebTimingModeEvent
+	fixation.PreRelease = Val("0")
+
+	fixation.OnsetSync = 1
+	fixation.OffsetSync = 0
+
+	Set black3 = New ImageDisplay
+	black3.Name = "black3"
+	black3.Tag = ""
+	black3.Filename = "black.bmp"
+	black3.Load
+
+	InitImageDisplayDefaults black3
+
+	black3.Duration = CLng("600")
+	black3.TimingMode = ebTimingModeEvent
+	black3.PreRelease = Val("0")
+
+	black3.OnsetSync = 1
+	black3.OffsetSync = 0
+
+	Set stimulus = New ImageDisplay
+	stimulus.Name = "stimulus"
+	stimulus.Tag = ""
+
+	InitImageDisplayDefaults stimulus
+
+	stimulus.Duration = CLng("120")
+	stimulus.TimingMode = ebTimingModeEvent
+	stimulus.PreRelease = Val("0")
+
+	stimulus.OnsetSync = 1
+	stimulus.OffsetSync = 0
+
+	Set waiting = New ImageDisplay
+	waiting.Name = "waiting"
+	waiting.Tag = ""
+
+	Set waitingEchoClients = New EchoClientCollection
+	waiting.Filename = "black.bmp"
+	waiting.Load
+
+	InitImageDisplayDefaults waiting
+
+	waiting.Duration = CLng("-1")
+	waiting.TimingMode = ebTimingModeEvent
+	waiting.PreRelease = Val("0")
+
+	waiting.OnsetSync = 1
+	waiting.OffsetSync = 0
+
+	Set interval = New ImageDisplay
+	interval.Name = "interval"
+	interval.Tag = ""
+	interval.Filename = "black.bmp"
+	interval.Load
+
+	InitImageDisplayDefaults interval
+
+	interval.Duration = CLng("1600")
+	interval.TimingMode = ebTimingModeEvent
+	interval.PreRelease = Val("0")
+
+	interval.OnsetSync = 1
+	interval.OffsetSync = 0
+
+	Set explist = New Procedure
+	explist.Name = "explist"
+	explist.Tag = ""
+	explist.Subroutine = "explist_Run"
+
+	Set checkpic = New ImageDisplay
+	checkpic.Name = "checkpic"
+	checkpic.Tag = ""
+
+	Set checkpicEchoClients = New EchoClientCollection
+	checkpic.Filename = "check.bmp"
+	checkpic.Load
+
+	InitImageDisplayDefaults checkpic
+
+	checkpic.Duration = CLng("-1")
+	checkpic.TimingMode = ebTimingModeEvent
+	checkpic.PreRelease = Val("0")
+
+	checkpic.OnsetSync = 1
+	checkpic.OffsetSync = 0
+
+	Set fixation2 = New ImageDisplay
+	fixation2.Name = "fixation2"
+	fixation2.Tag = ""
+	fixation2.Filename = "fixation.bmp"
+	fixation2.Load
+
+	InitImageDisplayDefaults fixation2
+
+	fixation2.Duration = CLng("600")
+	fixation2.TimingMode = ebTimingModeEvent
+	fixation2.PreRelease = Val("0")
+
+	fixation2.OnsetSync = 1
+	fixation2.OffsetSync = 0
+
+	Set black4 = New ImageDisplay
+	black4.Name = "black4"
+	black4.Tag = ""
+	black4.Filename = "black.bmp"
+	black4.Load
+
+	InitImageDisplayDefaults black4
+
+	black4.Duration = CLng("600")
+	black4.TimingMode = ebTimingModeEvent
+	black4.PreRelease = Val("0")
+
+	black4.OnsetSync = 1
+	black4.OffsetSync = 0
+
+	Set stimulus2 = New ImageDisplay
+	stimulus2.Name = "stimulus2"
+	stimulus2.Tag = ""
+
+	InitImageDisplayDefaults stimulus2
+
+	stimulus2.Duration = CLng("120")
+	stimulus2.TimingMode = ebTimingModeEvent
+	stimulus2.PreRelease = Val("0")
+
+	stimulus2.OnsetSync = 1
+	stimulus2.OffsetSync = 0
+
+	Set waiting2 = New ImageDisplay
+	waiting2.Name = "waiting2"
+	waiting2.Tag = ""
+
+	Set waiting2EchoClients = New EchoClientCollection
+	waiting2.Filename = "black.bmp"
+	waiting2.Load
+
+	InitImageDisplayDefaults waiting2
+
+	waiting2.Duration = CLng("-1")
+	waiting2.TimingMode = ebTimingModeEvent
+	waiting2.PreRelease = Val("0")
+
+	waiting2.OnsetSync = 1
+	waiting2.OffsetSync = 0
+
+	Set interval2 = New ImageDisplay
+	interval2.Name = "interval2"
+	interval2.Tag = ""
+	interval2.Filename = "black.bmp"
+	interval2.Load
+
+	InitImageDisplayDefaults interval2
+
+	interval2.Duration = CLng("1600")
+	interval2.TimingMode = ebTimingModeEvent
+	interval2.PreRelease = Val("0")
+
+	interval2.OnsetSync = 1
+	interval2.OffsetSync = 0
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' InitPackages
+'
+'--------------------------------------------------------------------------
+Sub InitPackages(c As Context)
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitDevices
+'--------------------------------------------------------------------------
+Sub UnInitDevices()
+	Display.Close
+	Set Display = Nothing
+
+	Keyboard.Close
+	Set Keyboard = Nothing
+
+	Mouse.Close
+	Set Mouse = Nothing
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitPackages
+'--------------------------------------------------------------------------
+Sub UnInitPackages()
+End Sub
+
+
+'--------------------------------------------------------------------------
+' UnInitObjects
+'
+'--------------------------------------------------------------------------
+Sub UnInitObjects()
+
+	Set SessionProc = Nothing
+
+	Set instruction = Nothing
+
+	Set instructionEchoClients = Nothing
+
+	Set black = Nothing
+
+	Set preexperiment = Nothing
+
+	Set instruction2 = Nothing
+
+	Set instruction2EchoClients = Nothing
+
+	Set black2 = Nothing
+
+	Set wholeexperiment = Nothing
+
+	Set byebye = Nothing
+
+	Set byebyeEchoClients = Nothing
+
+	Set preexplist = Nothing
+
+	Set fixation = Nothing
+
+	Set black3 = Nothing
+
+	Set stimulus = Nothing
+
+	Set waiting = Nothing
+
+	Set waitingEchoClients = Nothing
+
+	Set interval = Nothing
+
+	Set explist = Nothing
+
+	Set checkpic = Nothing
+
+	Set checkpicEchoClients = Nothing
+
+	Set fixation2 = Nothing
+
+	Set black4 = Nothing
+
+	Set stimulus2 = Nothing
+
+	Set waiting2 = Nothing
+
+	Set waiting2EchoClients = Nothing
+
+	Set interval2 = Nothing
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' Main
+'
+'--------------------------------------------------------------------------
+Sub Main()
+
+	CreateDefaultPort
+
+	' Create and initialize the default context, data file,
+	' and provide global access to the context.
+	Dim c As Context
+	Set c = New Context
+	Set c.DataFile = New DataFile
+	c.PushNewFrame
+	Set ebContext = c
+
+	' Set the log level names
+	c.SetLogLevelName 1, "Session"
+	c.SetLogLevelName 2, "Block"
+	c.SetLogLevelName 3, "Trial"
+	c.SetLogLevelName 4, "SubTrial"
+	c.SetLogLevelName 5, "LogLevel5"
+	c.SetLogLevelName 6, "LogLevel6"
+	c.SetLogLevelName 7, "LogLevel7"
+	c.SetLogLevelName 8, "LogLevel8"
+	c.SetLogLevelName 9, "LogLevel9"
+	c.SetLogLevelName 10, "LogLevel10"
+
+	' Set standard logging items
+	ebContext.SetAttrib "Experiment", "Untitled"
+	ebContext.SetAttrib "SessionDate", Date$
+	ebContext.SetAttrib "SessionTime", Time$
+	ebContext.SetAttrib "RandomSeed", PRNG.GetSeed()
+
+	If Basic.OS = ebWin32 Then
+		WinActivate "E-Run Experiment Window"
+	End If
+
+	' Get the StartupInfo
+	' Set default for GroupNumber
+	c.SetAttrib "Group", "1"
+
+
+	' Set the defaults for all of the StartupInfo
+	c.SetAttrib "Subject", "1"
+	c.SetAttrib "Session", "1"
+
+	Dim vAnswer As Variant
+StartupInfo_Begin:
+
+StartupInfoPrompt_Subject:
+	vAnswer = AskBox("Please enter the Subject Number (1-32767, 0=No Data Logging):", c.GetAttrib("Subject"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Subject must not be less than 0"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Subject must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Subject
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Subject", CStr(vAnswer)
+
+StartupInfoPrompt_Session:
+	vAnswer = AskBox("Please enter the Session Number (1-32767):", c.GetAttrib("Session"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) < 1 Then
+			MsgBox "The value for Session must not be less than 1"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Session must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Session
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Session", CStr(vAnswer)
+
+	' Display the summary
+	Dim strSummary As String
+	strSummary = "Subject:    " & c.GetAttrib("Subject") & "\n"
+	strSummary = strSummary & "Session:    " & c.GetAttrib("Session") & "\n"
+	strSummary = strSummary & "\nContinue with the above startup info?"
+
+	Dim nSummaryAnswer As Integer
+	nSummaryAnswer = MsgBox(strSummary, ebYesNoCancel + ebQuestion, "Summary of Startup Info")
+	If nSummaryAnswer = ebNo Then
+		GoTo StartupInfo_Begin
+	ElseIf nSummaryAnswer = ebCancel Then
+		GoTo ExperimentAbort
+	End If
+
+
+	' Set the default Data Filename
+	c.DataFile.Filename = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".txt"
+
+	' If we are logging data, then prompt to overwrite the data file if it exists
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		If FileExists(c.DataFile.Filename) Then
+			If ebYes <> MsgBox("WARNING: The data file and/or recovery file already exists:\nFILE: " & c.DataFile.Filename & "\n\nDo you want to overwrite?", ebYesNo + ebQuestion) Then
+				GoTo ExperimentAbort
+			End If
+		End If
+	End If
+
+	' Initialize all system devices, packages, and objects
+	InitDevices c
+	InitPackages c
+	InitObjects c
+
+	' If we are logging data, then open the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Open
+		c.LogHeader
+	End If
+
+	' Start the running of the Experiment
+	SessionProc.Run c
+
+	' Clean up the context and close the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Close
+		' Attempt to convert the recovery file into a data file
+		Dim nConvert As Long
+		nConvert = c.DataFile.Convert(ebProgressSimple)
+		If nConvert = 0 Then
+			' Settings in E-Studio are set to not remove E-Recovery file
+		Else
+			' The datafile failed to convert!
+			MsgBox "ERROR: The datafile did not convert!\nFILE: " & c.DataFile.Filename & "\n\nIt is recommended that you recover your data with the E-Recovery utility"
+			MsgBox c.DataFile.GetLastErrorMessage()
+		End If
+	End If
+ExperimentFinish:
+
+	UnInitObjects
+
+	UnInitPackages
+	UnInitDevices
+
+ExperimentAbort:
+
+	' Clean up the context
+	c.PopFrame
+	Set c = Nothing
+	Set ebContext = Nothing
+
+	DestroyDefaultPort
+
+End Sub
+
+
+[DataSection_preexperiment(1)]
+Weight	Nested	Procedure	trialIO	stimuli	type	correctresponse
+1		preexplist	1	23	1	j
+1		preexplist	2	89	1	j
+1		preexplist	3	34	1	j
+1		preexplist	4	78	1	j
+1		preexplist	5	24	1	j
+1		preexplist	6	79	1	j
+1		preexplist	7	28	2	j
+1		preexplist	8	39	2	j
+1		preexplist	9	37	2	j
+1		preexplist	10	48	2	j
+1		preexplist	11	27	2	j
+1		preexplist	12	49	2	j
+1		preexplist	?	32	1	f
+1		preexplist	?	98	1	f
+1		preexplist	?	43	1	f
+1		preexplist	?	87	1	f
+1		preexplist	?	42	1	f
+1		preexplist	?	97	1	f
+1		preexplist	?	82	2	f
+1		preexplist	?	93	2	f
+1		preexplist	?	73	2	f
+1		preexplist	?	84	2	f
+1		preexplist	?	72	2	f
+1		preexplist	?	94	2	f\0
+
+[DataSection_wholeexperiment(1)]
+Weight	Nested	Procedure	trialID2	stimuli2	type2	correctresponse2
+1		explist	1	23	1	j
+1		explist	2	89	1	j
+1		explist	3	34	1	j
+1		explist	4	78	1	j
+1		explist	5	24	1	j
+1		explist	6	79	1	j
+1		explist	7	28	2	j
+1		explist	8	39	2	j
+1		explist	9	37	2	j
+1		explist	10	48	2	j
+1		explist	11	27	2	j
+1		explist	12	49	2	j
+1		explist	13	32	1	f
+1		explist	14	98	1	f
+1		explist	15	43	1	f
+1		explist	16	87	1	f
+1		explist	17	42	1	f
+1		explist	18	97	1	f
+1		explist	19	82	2	f
+1		explist	20	93	2	f
+1		explist	21	73	2	f
+1		explist	22	84	2	f
+1		explist	23	72	2	f
+1		explist	24	94	2	f
+1		explist	25	23	1	j
+1		explist	26	89	1	j
+1		explist	27	34	1	j
+1		explist	28	78	1	j
+1		explist	29	24	1	j
+1		explist	30	79	1	j
+1		explist	31	28	2	j
+1		explist	32	39	2	j
+1		explist	33	37	2	j
+1		explist	34	48	2	j
+1		explist	35	27	2	j
+1		explist	36	49	2	j
+1		explist	37	32	1	f
+1		explist	38	98	1	f
+1		explist	39	43	1	f
+1		explist	40	87	1	f
+1		explist	41	42	1	f
+1		explist	42	97	1	f
+1		explist	43	82	2	f
+1		explist	44	93	2	f
+1		explist	45	73	2	f
+1		explist	46	84	2	f
+1		explist	47	72	2	f
+1		explist	48	94	2	f\0
