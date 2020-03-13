@@ -1,0 +1,1166 @@
+*** Header Start ***
+VersionPersist: 1
+LevelName: Session
+LevelName: Block
+LevelName: Trial
+LevelName: SubTrial
+LevelName: LogLevel5
+LevelName: LogLevel6
+LevelName: LogLevel7
+LevelName: LogLevel8
+LevelName: LogLevel9
+LevelName: LogLevel10
+Experiment: Untitled
+SessionDate: 03-13-2020
+SessionTime: 16:28:52
+RandomSeed: -1992374460
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 59.966
+*** Header End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 2
+	trialID: 2
+	pic1: 27
+	pic2: 28
+	pic3: 53
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: kerchief
+	n1: willow
+	n2: kerchief
+	n3: lamp
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 1
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 4
+	trialID: 4
+	pic1: 3
+	pic2: 15
+	pic3: 21
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: bandage
+	n1: bandage
+	n2: choker
+	n3: glove
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 2
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 31
+	trialID: 31
+	pic1: 18
+	pic2: 35
+	pic3: 33
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: cushion
+	n1: cushion
+	n2: pitcher
+	n3: pillow
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 3
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 20
+	trialID: 20
+	pic1: 1
+	pic2: 54
+	pic3: 9
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: apron
+	n1: apron
+	n2: worm
+	n3: bunk
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 4
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 11
+	trialID: 11
+	pic1: 4
+	pic2: 47
+	pic3: 31
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: basket
+	n1: necktie
+	n2: basket
+	n3: suitcase
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 5
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 48
+	trialID: 48
+	pic1: 40
+	pic2: 38
+	pic3: 51
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: rug
+	n1: rug
+	n2: radio
+	n3: wardrobe
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 6
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 12
+	trialID: 12
+	pic1: 48
+	pic2: 50
+	pic3: 13
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: tablet
+	n1: chain
+	n2: tablet
+	n3: vase
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 7
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 51
+	trialID: 51
+	pic1: 15
+	pic2: 25
+	pic3: 22
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: choker
+	n1: goblet
+	n2: choker
+	n3: helmet
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 8
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 6
+	trialID: 6
+	pic1: 53
+	pic2: 46
+	pic3: 24
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: willow
+	n1: willow
+	n2: statue
+	n3: hanky
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 9
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 46
+	trialID: 46
+	pic1: 28
+	pic2: 31
+	pic3: 25
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: lamp
+	n1: helmet
+	n2: lamp
+	n3: necktie
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 10
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 43
+	trialID: 43
+	pic1: 39
+	pic2: 37
+	pic3: 49
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: razor
+	n1: quilt
+	n2: telephone
+	n3: razor
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 11
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 22
+	trialID: 22
+	pic1: 32
+	pic2: 45
+	pic3: 43
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: perfume
+	n1: perfume
+	n2: spray
+	n3: scroll
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 12
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 54
+	trialID: 54
+	pic1: 14
+	pic2: 23
+	pic3: 6
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: chandelier
+	n1: hanger
+	n2: bolster
+	n3: chandelier
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 13
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 35
+	trialID: 35
+	pic1: 47
+	pic2: 48
+	pic3: 23
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: suitcase
+	n1: tablet
+	n2: hanger
+	n3: suitcase
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 14
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 41
+	trialID: 41
+	pic1: 43
+	pic2: 53
+	pic3: 29
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: scroll
+	n1: willow
+	n2: mattress
+	n3: scroll
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 15
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 15
+	trialID: 15
+	pic1: 16
+	pic2: 40
+	pic3: 38
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: cradle
+	n1: radio
+	n2: cradle
+	n3: rug
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 16
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 23
+	trialID: 23
+	pic1: 26
+	pic2: 43
+	pic3: 42
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: hook
+	n1: scissors
+	n2: hook
+	n3: scroll
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 17
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 16
+	trialID: 16
+	pic1: 36
+	pic2: 13
+	pic3: 4
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: polish
+	n1: basket
+	n2: polish
+	n3: chain
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 18
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 28
+	trialID: 28
+	pic1: 41
+	pic2: 24
+	pic3: 26
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: saber
+	n1: hanky
+	n2: hook
+	n3: saber
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 19
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 32
+	trialID: 32
+	pic1: 17
+	pic2: 21
+	pic3: 48
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: curtain
+	n1: curtain
+	n2: glove
+	n3: tablet
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 20
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 33
+	trialID: 33
+	pic1: 29
+	pic2: 33
+	pic3: 32
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: mattress
+	n1: perfume
+	n2: mattress
+	n3: pillow
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 21
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 13
+	trialID: 13
+	pic1: 37
+	pic2: 16
+	pic3: 35
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: quilt
+	n1: pitcher
+	n2: quilt
+	n3: cradle
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 22
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 19
+	trialID: 19
+	pic1: 25
+	pic2: 1
+	pic3: 8
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: helmet
+	n1: apron
+	n2: bouquet
+	n3: helmet
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 23
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 42
+	trialID: 42
+	pic1: 6
+	pic2: 41
+	pic3: 19
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: bolster
+	n1: bolster
+	n2: saber
+	n3: fan
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 24
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 30
+	trialID: 30
+	pic1: 52
+	pic2: 22
+	pic3: 36
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: wheat
+	n1: polish
+	n2: wheat
+	n3: goblet
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 25
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 36
+	trialID: 36
+	pic1: 19
+	pic2: 14
+	pic3: 34
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: fan
+	n1: fan
+	n2: chandelier
+	n3: pipe
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 26
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 9
+	trialID: 9
+	pic1: 50
+	pic2: 20
+	pic3: 2
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: vase
+	n1: vase
+	n2: flask
+	n3: ashtray
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 27
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 5
+	trialID: 5
+	pic1: 8
+	pic2: 32
+	pic3: 14
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: bouquet
+	n1: bouquet
+	n2: perfume
+	n3: chandelier
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 28
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 21
+	trialID: 21
+	pic1: 31
+	pic2: 9
+	pic3: 16
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: necktie
+	n1: bunk
+	n2: cradle
+	n3: necktie
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 29
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 14
+	trialID: 14
+	pic1: 22
+	pic2: 34
+	pic3: 47
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: goblet
+	n1: pipe
+	n2: suitcase
+	n3: goblet
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 30
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 50
+	trialID: 50
+	pic1: 2
+	pic2: 44
+	pic3: 1
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: ashtray
+	n1: apron
+	n2: ashtray
+	n3: slipper
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 31
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 25
+	trialID: 25
+	pic1: 9
+	pic2: 51
+	pic3: 45
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: bunk
+	n1: wardrobe
+	n2: spray
+	n3: bunk
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 32
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 18
+	trialID: 18
+	pic1: 34
+	pic2: 42
+	pic3: 40
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: pipe
+	n1: pipe
+	n2: scissors
+	n3: rug
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 33
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 47
+	trialID: 47
+	pic1: 24
+	pic2: 11
+	pic3: 30
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: hanky
+	n1: cane
+	n2: necklace
+	n3: hanky
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 34
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 10
+	trialID: 10
+	pic1: 38
+	pic2: 8
+	pic3: 50
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: radio
+	n1: radio
+	n2: bouquet
+	n3: vase
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 35
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 52
+	trialID: 52
+	pic1: 11
+	pic2: 36
+	pic3: 41
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: cane
+	n1: polish
+	n2: saber
+	n3: cane
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 36
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 34
+	trialID: 34
+	pic1: 49
+	pic2: 30
+	pic3: 10
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: telephone
+	n1: necklace
+	n2: cameo
+	n3: telephone
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 37
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 3
+	trialID: 3
+	pic1: 45
+	pic2: 6
+	pic3: 46
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: spray
+	n1: bolster
+	n2: statue
+	n3: spray
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 38
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 53
+	trialID: 53
+	pic1: 5
+	pic2: 19
+	pic3: 54
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: blanket
+	n1: blanket
+	n2: fan
+	n3: worm
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 39
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 17
+	trialID: 17
+	pic1: 33
+	pic2: 17
+	pic3: 18
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: pillow
+	n1: cushion
+	n2: pillow
+	n3: curtain
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 40
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 39
+	trialID: 39
+	pic1: 10
+	pic2: 52
+	pic3: 28
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: cameo
+	n1: cameo
+	n2: wheat
+	n3: lamp
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 41
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 24
+	trialID: 24
+	pic1: 46
+	pic2: 26
+	pic3: 3
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: statue
+	n1: bandage
+	n2: statue
+	n3: hook
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 42
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 45
+	trialID: 45
+	pic1: 12
+	pic2: 5
+	pic3: 44
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: carafe
+	n1: slipper
+	n2: carafe
+	n3: blanket
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 43
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 26
+	trialID: 26
+	pic1: 21
+	pic2: 39
+	pic3: 7
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: glove
+	n1: razor
+	n2: booze
+	n3: glove
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 44
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 38
+	trialID: 38
+	pic1: 51
+	pic2: 49
+	pic3: 17
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: wardrobe
+	n1: wardrobe
+	n2: telephone
+	n3: curtain
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 45
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 29
+	trialID: 29
+	pic1: 44
+	pic2: 10
+	pic3: 37
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: slipper
+	n1: quilt
+	n2: slipper
+	n3: cameo
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 46
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 8
+	trialID: 8
+	pic1: 42
+	pic2: 7
+	pic3: 27
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: scissors
+	n1: kerchief
+	n2: scissors
+	n3: booze
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 47
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 7
+	trialID: 7
+	pic1: 30
+	pic2: 2
+	pic3: 20
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: necklace
+	n1: ashtray
+	n2: flask
+	n3: necklace
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 48
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 37
+	trialID: 37
+	pic1: 7
+	pic2: 12
+	pic3: 39
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: booze
+	n1: carafe
+	n2: razor
+	n3: booze
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 49
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 1
+	trialID: 1
+	pic1: 13
+	pic2: 3
+	pic3: 15
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: chain
+	n1: chain
+	n2: bandage
+	n3: choker
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 50
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 40
+	trialID: 40
+	pic1: 20
+	pic2: 4
+	pic3: 12
+	pos1: 3
+	pos2: 1
+	pos3: 2
+	correctpos: 2
+	correctname: flask
+	n1: carafe
+	n2: flask
+	n3: basket
+	correctresponse: k
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 51
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 27
+	trialID: 27
+	pic1: 54
+	pic2: 27
+	pic3: 5
+	pos1: 1
+	pos2: 2
+	pos3: 3
+	correctpos: 1
+	correctname: worm
+	n1: worm
+	n2: kerchief
+	n3: blanket
+	correctresponse: j
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 52
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 49
+	trialID: 49
+	pic1: 23
+	pic2: 18
+	pic3: 52
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: hanger
+	n1: cushion
+	n2: wheat
+	n3: hanger
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 53
+	Running: wholeexperiment
+	*** LogFrame End ***
+	Level: 2
+	*** LogFrame Start ***
+	wholeexperiment: 44
+	trialID: 44
+	pic1: 35
+	pic2: 29
+	pic3: 11
+	pos1: 2
+	pos2: 3
+	pos3: 1
+	correctpos: 3
+	correctname: pitcher
+	n1: mattress
+	n2: cane
+	n3: pitcher
+	correctresponse: l
+	Procedure: explist
+	wholeexperiment.Cycle: 1
+	wholeexperiment.Sample: 54
+	Running: wholeexperiment
+	*** LogFrame End ***
+Level: 1
+*** LogFrame Start ***
+Experiment: Untitled
+SessionDate: 03-13-2020
+SessionTime: 16:28:52
+RandomSeed: -1992374460
+Group: 1
+Subject: 1
+Session: 1
+Display.RefreshRate: 59.966
+*** LogFrame End ***

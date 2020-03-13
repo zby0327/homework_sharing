@@ -1,0 +1,874 @@
+'
+'
+'
+'	C:\week3\Untitled.ebs
+'	Generated on: 3/13/2020	16:28:52
+'
+'
+'	This file generated with E-Studio interface.
+'	E-Prime Copyright © 2002 Psychology Software Tools.
+'	ALL RIGHTS RESERVED
+
+'	Legal use of this experiment script requires a full E-Prime or Runtime License.
+'
+'
+'	Author:
+'		zby15522145335@163.com (Beijing Normal University)
+'
+'
+'
+'
+
+Option CStrings On
+Dim ebContext as Context
+
+
+'--------------------------------------------------------------------------
+' Class Declarations
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+'InitImageDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitImageDisplayDefaults(theImageDisplay As ImageDisplay)
+
+	If theImageDisplay Is Nothing Then Exit Sub
+
+	theImageDisplay.X = "center"
+	theImageDisplay.Y = "center"
+	theImageDisplay.Width = "100%"
+	theImageDisplay.Height = "100%"
+	theImageDisplay.BackColor = CColor("black")
+	theImageDisplay.BackStyle = "opaque"
+	theImageDisplay.BorderColor = CColor("black")
+	theImageDisplay.BorderWidth = CLng("0")
+	theImageDisplay.XAlign = "center"
+	theImageDisplay.YAlign = "center"
+	theImageDisplay.AlignHorizontal = "center"
+	theImageDisplay.AlignVertical = "center"
+	theImageDisplay.ClearAfter = CLogical("No")
+	theImageDisplay.UseSourceColorKey = CLogical("No")
+	theImageDisplay.SourceColorKey = CColor("black")
+	theImageDisplay.MirrorLeftRight = CLogical("No")
+	theImageDisplay.MirrorUpDown = CLogical("No")
+	theImageDisplay.Stretch = CLogical("No")
+
+End Sub
+
+
+
+
+
+
+'--------------------------------------------------------------------------
+'InitTextDisplayDefaults
+'--------------------------------------------------------------------------
+Sub InitTextDisplayDefaults(theTextDisplay As TextDisplay)
+
+	If theTextDisplay Is Nothing Then Exit Sub
+
+	theTextDisplay.X = "center"
+	theTextDisplay.Y = "center"
+	theTextDisplay.Width = "100%"
+	theTextDisplay.Height = "100%"
+	theTextDisplay.ForeColor = CColor("black")
+	theTextDisplay.BackColor = CColor("white")
+	theTextDisplay.BackStyle = "opaque"
+	theTextDisplay.BorderColor = CColor("black")
+	theTextDisplay.BorderWidth = CLng("0")
+	theTextDisplay.XAlign = "center"
+	theTextDisplay.YAlign = "center"
+	theTextDisplay.AlignHorizontal = "center"
+	theTextDisplay.AlignVertical = "center"
+	theTextDisplay.WordWrap = True
+	theTextDisplay.ClearAfter = CLogical("No")
+	theTextDisplay.FontName = "Courier New"
+	theTextDisplay.FontSize = "18"
+	theTextDisplay.FontBold = CLogical("Yes")
+	theTextDisplay.FontItalic = CLogical("No")
+	theTextDisplay.FontUnderline = CLogical("No")
+	theTextDisplay.FontStrikeout = CLogical("No")
+
+End Sub
+
+
+
+
+
+'--------------------------------------------------------------------------
+'InitSlideStateDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideStateDefaults(theSlideState As SlideState)
+
+	If theSlideState Is Nothing Then Exit Sub
+
+	theSlideState.X = "center"
+	theSlideState.Y = "center"
+	theSlideState.Width = "100%"
+	theSlideState.Height = "100%"
+	theSlideState.BackColor = CColor("white")
+	theSlideState.BackStyle = "opaque"
+	theSlideState.BorderColor = CColor("black")
+	theSlideState.BorderWidth = CLng("0")
+	theSlideState.XAlign = "center"
+	theSlideState.YAlign = "center"
+	theSlideState.ClearAfter = CLogical("No")
+	theSlideState.Enabled = CLogical("Yes")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideVisualStimDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideVisualStimDefaults(theSlideVisualStim As SlideVisualStim)
+
+	If theSlideVisualStim Is Nothing Then Exit Sub
+
+	theSlideVisualStim.X = "center"
+	theSlideVisualStim.Y = "center"
+	theSlideVisualStim.Width = "25%"
+	theSlideVisualStim.Height = "25%"
+	theSlideVisualStim.ForeColor = CColor("black")
+	theSlideVisualStim.BackColor = CColor("white")
+	theSlideVisualStim.BackStyle = "opaque"
+	theSlideVisualStim.BorderColor = CColor("black")
+	theSlideVisualStim.BorderWidth = CLng("0")
+	theSlideVisualStim.XAlign = "center"
+	theSlideVisualStim.YAlign = "center"
+	theSlideVisualStim.AlignHorizontal = "center"
+	theSlideVisualStim.AlignVertical = "center"
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideTextDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideTextDefaults(theSlideText As SlideText)
+
+	If theSlideText Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideText
+
+	theSlideText.WordWrap = True
+	theSlideText.FontName = "Courier New"
+	theSlideText.FontSize = "18"
+	theSlideText.FontBold = CLogical("Yes")
+	theSlideText.FontItalic = CLogical("No")
+	theSlideText.FontUnderline = CLogical("No")
+	theSlideText.FontStrikeout = CLogical("No")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideImageDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideImageDefaults(theSlideImage As SlideImage)
+
+	If theSlideImage Is Nothing Then Exit Sub
+
+	InitSlideVisualStimDefaults theSlideImage
+
+	theSlideImage.Stretch = CLogical("No")
+	theSlideImage.MirrorLeftRight = CLogical("No")
+	theSlideImage.MirrorUpDown = CLogical("No")
+	theSlideImage.UseSourceColorKey = CLogical("No")
+	theSlideImage.SourceColorKey = CColor("black")
+
+End Sub
+
+'--------------------------------------------------------------------------
+'InitSlideSoundBufferDefaults
+'--------------------------------------------------------------------------
+Sub InitSlideSoundBufferDefaults(theSoundBuffer As SoundBuffer)
+
+	If theSoundBuffer Is Nothing Then Exit Sub
+
+	theSoundBuffer.Loop = CLogical("No")
+	theSoundBuffer.StopAfter = CLogical("Yes")
+	theSoundBuffer.StartOffset = "0"
+	theSoundBuffer.StopOffset = "0"
+
+End Sub
+
+
+
+
+
+'--------------------------------------------------------------------------
+' Instance Declarations
+'--------------------------------------------------------------------------
+Dim Display As DisplayDevice
+Dim Sound As SoundDevice
+Dim Keyboard As KeyboardDevice
+Dim Mouse As MouseDevice
+Dim SessionProc As Procedure
+
+Dim instruction2 As ImageDisplay
+Dim instruction2EchoClients As EchoClientCollection
+
+Dim wholeexperiment As List
+
+Dim byebye As ImageDisplay
+Dim byebyeEchoClients As EchoClientCollection
+
+Dim explist As Procedure
+
+Dim white As TextDisplay
+
+Dim stimuli As Slide
+Dim stimuliEchoClients As EchoClientCollection
+Dim stimuli_State As SlideState
+Dim stimuli_SlideText As SlideText
+Dim stimuli_SlideImage As SlideImage
+
+Dim white1 As TextDisplay
+
+
+
+'--------------------------------------------------------------------------
+' Package Declare Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' User Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Global Script
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Package Routines
+'--------------------------------------------------------------------------
+
+
+
+'--------------------------------------------------------------------------
+' Implementation
+'--------------------------------------------------------------------------
+Sub SessionProc_Run(c as Context)
+	
+	
+	instruction2.InputMasks.Reset
+	
+	instruction2EchoClients.RemoveAll
+	instruction2.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(instruction2.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	instruction2.Run
+	
+	white.Run
+	wholeexperiment.Run c
+	
+	
+	byebye.InputMasks.Reset
+	
+	byebyeEchoClients.RemoveAll
+	byebye.InputMasks.Add Keyboard.CreateInputMask("{SPACE}", "", CLng(byebye.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	byebye.Run
+
+	c.Log
+End Sub
+
+Sub explist_Run(c as Context)
+	
+	white1.Run
+	
+	
+	Select Case stimuli.ActiveState
+		Case "Default"
+
+
+			Set stimuli_SlideText = CSlideText(stimuli.States.Item("Default").Objects(1))
+			stimuli_SlideText.Text = c.GetAttrib("correctname")
+			Set stimuli_SlideText = Nothing
+
+			Set stimuli_SlideImage = CSlideImage(stimuli.States.Item("Default").Objects(2))
+			stimuli_SlideImage.Filename = c.GetAttrib("n3") &_ 
+				".bmp"
+			stimuli_SlideImage.Load
+			Set stimuli_SlideImage = Nothing
+
+			Set stimuli_SlideImage = CSlideImage(stimuli.States.Item("Default").Objects(3))
+			stimuli_SlideImage.Filename = c.GetAttrib("n2") &_ 
+				".bmp"
+			stimuli_SlideImage.Load
+			Set stimuli_SlideImage = Nothing
+
+			Set stimuli_SlideImage = CSlideImage(stimuli.States.Item("Default").Objects(4))
+			stimuli_SlideImage.Filename = c.GetAttrib("n1") &_ 
+				".bmp"
+			stimuli_SlideImage.Load
+			Set stimuli_SlideImage = Nothing
+	End Select
+
+	
+	stimuli.InputMasks.Reset
+	
+	stimuliEchoClients.RemoveAll
+	stimuli.InputMasks.Add Keyboard.CreateInputMask("jkl", c.GetAttrib("correctresponse"), CLng(stimuli.Duration), CLng("1"), ebEndResponseActionTerminate, CLogical("Yes"), "", "", "ResponseMode:All ProcessBackspace:Yes")
+
+	
+	stimuli.Run
+	
+	
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - recording BEGIN
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+Open "result.txt" For Append As #1
+Print #1, c.GetAttrib("correctpos"), c.GetAttrib("n1"), c.GetAttrib("n2"), c.GetAttrib("n3"), stimuli.RT, stimuli.ACC
+Close #1
+
+	'''''''''''''''''''''''''''''''''''''''''''''
+	' InLine - recording END
+	'''''''''''''''''''''''''''''''''''''''''''''
+	
+
+	c.Log
+End Sub
+
+
+
+
+
+'--------------------------------------------------------------------------
+' InitDevices
+'
+'--------------------------------------------------------------------------
+Sub InitDevices(c As Context)
+
+
+
+	SetOSThreadPriority 3
+
+
+	Set Display = New DisplayDevice
+	Display.Name = "Display"
+
+	Dim DisplayDisplayDeviceInfo As DisplayDeviceInfo
+	DisplayDisplayDeviceInfo.XRes = 1024
+	DisplayDisplayDeviceInfo.YRes = 768
+	DisplayDisplayDeviceInfo.ColorDepth = 32
+	DisplayDisplayDeviceInfo.RefreshRate = 0
+	DisplayDisplayDeviceInfo.NumPages = 0
+
+	Display.Open DisplayDisplayDeviceInfo
+	c.SetAttrib "Display.RefreshRate", Format$(Display.CalculatedRefreshRate, "0.000")
+
+	Set Sound = New SoundDevice
+	Sound.Name = "Sound"
+
+	Dim SoundSoundOutDeviceInfo As SoundDeviceInfo
+	SoundSoundOutDeviceInfo.Channels = 2
+	SoundSoundOutDeviceInfo.SamplesPerSecond = 22050
+	SoundSoundOutDeviceInfo.BitsPerSample = 16
+	
+	Set Keyboard = New KeyboardDevice
+	Keyboard.Name = "Keyboard"
+
+	Dim KeyboardKeyboardDeviceInfo as KeyboardDeviceInfo
+	KeyboardKeyboardDeviceInfo.CollectionMode = ebPressesOnly
+	KeyboardKeyboardDeviceInfo.CapsLock = ebCapsLockOff
+	KeyboardKeyboardDeviceInfo.NumLock = ebNumLockOn
+	Keyboard.Open KeyboardKeyboardDeviceInfo
+	
+	Set Mouse = New MouseDevice
+	Mouse.Name = "Mouse"
+
+	Dim MouseMouseDeviceInfo as MouseDeviceInfo
+	MouseMouseDeviceInfo.OpenMode = ebMouseOpenModeDirect
+	MouseMouseDeviceInfo.CollectionMode = ebPressesOnly
+	MouseMouseDeviceInfo.ShowCursor = False
+	Mouse.Open MouseMouseDeviceInfo
+
+
+	SetOSThreadPriority 0
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+' InitObjects
+'
+'--------------------------------------------------------------------------
+Sub InitObjects(c As Context)
+
+	Set SessionProc = New Procedure
+	SessionProc.Name = "SessionProc"
+	SessionProc.Tag = ""
+	SessionProc.Subroutine = "SessionProc_Run"
+
+	Set instruction2 = New ImageDisplay
+	instruction2.Name = "instruction2"
+	instruction2.Tag = ""
+
+	Set instruction2EchoClients = New EchoClientCollection
+	instruction2.Filename = "instruction.bmp"
+	instruction2.Load
+
+	InitImageDisplayDefaults instruction2
+
+	instruction2.BackColor = CColor("white")
+	instruction2.Duration = CLng("-1")
+	instruction2.TimingMode = ebTimingModeEvent
+	instruction2.PreRelease = Val("0")
+
+	instruction2.OnsetSync = 1
+	instruction2.OffsetSync = 0
+
+	Set wholeexperiment = New List
+	wholeexperiment.Name = "wholeexperiment"
+	wholeexperiment.Tag = ""
+
+	'Initialization for wholeexperiment
+	
+	Set wholeexperiment.Order = New RandomOrder
+	Set wholeexperiment.Deletion = NoDeletion
+	wholeexperiment.ResetEveryRun = False
+
+	' Create the column headings
+	wholeexperiment.AddAttrib "trialID"
+	wholeexperiment.AddAttrib "pic1"
+	wholeexperiment.AddAttrib "pic2"
+	wholeexperiment.AddAttrib "pic3"
+	wholeexperiment.AddAttrib "pos1"
+	wholeexperiment.AddAttrib "pos2"
+	wholeexperiment.AddAttrib "pos3"
+	wholeexperiment.AddAttrib "correctpos"
+	wholeexperiment.AddAttrib "correctname"
+	wholeexperiment.AddAttrib "n1"
+	wholeexperiment.AddAttrib "n2"
+	wholeexperiment.AddAttrib "n3"
+	wholeexperiment.AddAttrib "correctresponse"
+	wholeexperiment.Filename = ""
+	wholeexperiment.LoadMethod = ebLoadMethodEmbedded
+
+	wholeexperiment.Load
+
+	Set wholeexperiment.TerminateCondition = Cycles(1)
+	Set wholeexperiment.ResetCondition = Samples(54)
+	wholeexperiment.Reset
+	
+	Set byebye = New ImageDisplay
+	byebye.Name = "byebye"
+	byebye.Tag = ""
+
+	Set byebyeEchoClients = New EchoClientCollection
+	byebye.Filename = "byebye.bmp"
+	byebye.Load
+
+	InitImageDisplayDefaults byebye
+
+	byebye.BackColor = CColor("white")
+	byebye.Duration = CLng("-1")
+	byebye.TimingMode = ebTimingModeEvent
+	byebye.PreRelease = Val("0")
+
+	byebye.OnsetSync = 1
+	byebye.OffsetSync = 0
+
+	Set explist = New Procedure
+	explist.Name = "explist"
+	explist.Tag = ""
+	explist.Subroutine = "explist_Run"
+
+	Set white = New TextDisplay
+	white.Name = "white"
+	white.Tag = ""
+
+	InitTextDisplayDefaults white
+
+	white.Text = ""
+	white.Duration = CLng("1000")
+	white.TimingMode = ebTimingModeEvent
+	white.PreRelease = Val("0")
+
+	white.OnsetSync = 1
+	white.OffsetSync = 0
+
+	Set stimuli = New Slide
+	stimuli.Name = "stimuli"
+	stimuli.Tag = ""
+
+	Set stimuliEchoClients = New EchoClientCollection
+	stimuli.Duration = CLng("-1")
+	stimuli.TimingMode = ebTimingModeEvent
+	stimuli.PreRelease = Val("0")
+
+	stimuli.OnsetSync = 1
+	stimuli.OffsetSync = 0
+
+	Set stimuli_State = New SlideState
+	stimuli_State.Name = "Default"
+
+	InitSlideStateDefaults stimuli_State
+
+
+	stimuli.States.Add stimuli_State, "Default"
+
+
+	Set stimuli_SlideText = New SlideText
+	stimuli_SlideText.Name = "Text1"
+
+	InitSlideTextDefaults stimuli_SlideText
+
+	stimuli_SlideText.Y = "184"
+	stimuli_SlideText.Width = "200"
+	stimuli_SlideText.Height = "100"
+	stimuli_SlideText.YAlign = "top"
+	stimuli_SlideText.FontName = "Consolas"
+	stimuli_SlideText.FontSize = "20"
+	stimuli.States.Item("Default").Objects.Add stimuli_SlideText, "Text1"
+
+	Set stimuli_SlideImage = New SlideImage
+	stimuli_SlideImage.Name = "Image3"
+
+	InitSlideImageDefaults stimuli_SlideImage
+
+	stimuli_SlideImage.Stretch = CLogical("Yes")
+	stimuli_SlideImage.X = "962"
+	stimuli_SlideImage.Width = "200"
+	stimuli_SlideImage.Height = "200"
+	stimuli_SlideImage.XAlign = "right"
+	stimuli_SlideImage.YAlign = "top"
+	stimuli.States.Item("Default").Objects.Add stimuli_SlideImage, "Image3"
+
+	Set stimuli_SlideImage = New SlideImage
+	stimuli_SlideImage.Name = "Image2"
+
+	InitSlideImageDefaults stimuli_SlideImage
+
+	stimuli_SlideImage.Stretch = CLogical("Yes")
+	stimuli_SlideImage.Width = "200"
+	stimuli_SlideImage.Height = "200"
+	stimuli_SlideImage.YAlign = "top"
+	stimuli.States.Item("Default").Objects.Add stimuli_SlideImage, "Image2"
+
+	Set stimuli_SlideImage = New SlideImage
+	stimuli_SlideImage.Name = "Image1"
+
+	InitSlideImageDefaults stimuli_SlideImage
+
+	stimuli_SlideImage.Stretch = CLogical("Yes")
+	stimuli_SlideImage.X = "162"
+	stimuli_SlideImage.Width = "200"
+	stimuli_SlideImage.Height = "200"
+	stimuli_SlideImage.YAlign = "top"
+	stimuli.States.Item("Default").Objects.Add stimuli_SlideImage, "Image1"
+	stimuli.ActiveState = "Default"
+
+	Set white1 = New TextDisplay
+	white1.Name = "white1"
+	white1.Tag = ""
+
+	InitTextDisplayDefaults white1
+
+	white1.Text = ""
+	white1.Duration = CLng("1000")
+	white1.TimingMode = ebTimingModeEvent
+	white1.PreRelease = Val("0")
+
+	white1.OnsetSync = 1
+	white1.OffsetSync = 0
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' InitPackages
+'
+'--------------------------------------------------------------------------
+Sub InitPackages(c As Context)
+
+End Sub
+
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitDevices
+'--------------------------------------------------------------------------
+Sub UnInitDevices()
+	Display.Close
+	Set Display = Nothing
+
+	Keyboard.Close
+	Set Keyboard = Nothing
+
+	Mouse.Close
+	Set Mouse = Nothing
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+'--------------------------------------------------------------------------
+' UnInitPackages
+'--------------------------------------------------------------------------
+Sub UnInitPackages()
+End Sub
+
+
+'--------------------------------------------------------------------------
+' UnInitObjects
+'
+'--------------------------------------------------------------------------
+Sub UnInitObjects()
+
+	Set SessionProc = Nothing
+
+	Set instruction2 = Nothing
+
+	Set instruction2EchoClients = Nothing
+
+	Set wholeexperiment = Nothing
+
+	Set byebye = Nothing
+
+	Set byebyeEchoClients = Nothing
+
+	Set explist = Nothing
+
+	Set white = Nothing
+
+	Set stimuli = Nothing
+
+	Set stimuliEchoClients = Nothing
+
+	Set white1 = Nothing
+
+
+End Sub
+
+
+'--------------------------------------------------------------------------
+' Main
+'
+'--------------------------------------------------------------------------
+Sub Main()
+
+	CreateDefaultPort
+
+	' Create and initialize the default context, data file,
+	' and provide global access to the context.
+	Dim c As Context
+	Set c = New Context
+	Set c.DataFile = New DataFile
+	c.PushNewFrame
+	Set ebContext = c
+
+	' Set the log level names
+	c.SetLogLevelName 1, "Session"
+	c.SetLogLevelName 2, "Block"
+	c.SetLogLevelName 3, "Trial"
+	c.SetLogLevelName 4, "SubTrial"
+	c.SetLogLevelName 5, "LogLevel5"
+	c.SetLogLevelName 6, "LogLevel6"
+	c.SetLogLevelName 7, "LogLevel7"
+	c.SetLogLevelName 8, "LogLevel8"
+	c.SetLogLevelName 9, "LogLevel9"
+	c.SetLogLevelName 10, "LogLevel10"
+
+	' Set standard logging items
+	ebContext.SetAttrib "Experiment", "Untitled"
+	ebContext.SetAttrib "SessionDate", Date$
+	ebContext.SetAttrib "SessionTime", Time$
+	ebContext.SetAttrib "RandomSeed", PRNG.GetSeed()
+
+	If Basic.OS = ebWin32 Then
+		WinActivate "E-Run Experiment Window"
+	End If
+
+	' Get the StartupInfo
+	' Set default for GroupNumber
+	c.SetAttrib "Group", "1"
+
+
+	' Set the defaults for all of the StartupInfo
+	c.SetAttrib "Subject", "1"
+	c.SetAttrib "Session", "1"
+
+	Dim vAnswer As Variant
+StartupInfo_Begin:
+
+StartupInfoPrompt_Subject:
+	vAnswer = AskBox("Please enter the Subject Number (1-32767, 0=No Data Logging):", c.GetAttrib("Subject"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) < 0 Then
+			MsgBox "The value for Subject must not be less than 0"
+			GoTo StartupInfoPrompt_Subject
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Subject must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Subject
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Subject", CStr(vAnswer)
+
+StartupInfoPrompt_Session:
+	vAnswer = AskBox("Please enter the Session Number (1-32767):", c.GetAttrib("Session"))
+	If Not IsEmpty(vAnswer) then
+		If Not IsNumeric(vAnswer) then
+			MsgBox "Please enter an integer value"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) < 1 Then
+			MsgBox "The value for Session must not be less than 1"
+			GoTo StartupInfoPrompt_Session
+		ElseIf CLng(vAnswer) > 32767 Then
+			MsgBox "The value for Session must be not be greater than 32767"
+			GoTo StartupInfoPrompt_Session
+		End If
+	Else
+		GoTo ExperimentAbort
+	End if
+
+	c.SetAttrib "Session", CStr(vAnswer)
+
+	' Display the summary
+	Dim strSummary As String
+	strSummary = "Subject:    " & c.GetAttrib("Subject") & "\n"
+	strSummary = strSummary & "Session:    " & c.GetAttrib("Session") & "\n"
+	strSummary = strSummary & "\nContinue with the above startup info?"
+
+	Dim nSummaryAnswer As Integer
+	nSummaryAnswer = MsgBox(strSummary, ebYesNoCancel + ebQuestion, "Summary of Startup Info")
+	If nSummaryAnswer = ebNo Then
+		GoTo StartupInfo_Begin
+	ElseIf nSummaryAnswer = ebCancel Then
+		GoTo ExperimentAbort
+	End If
+
+
+	' Set the default Data Filename
+	c.DataFile.Filename = CStr(c.GetAttrib("Experiment")) & "-" & CStr(c.GetAttrib("Subject")) & "-" & CStr(c.GetAttrib("Session")) & ".txt"
+
+	' If we are logging data, then prompt to overwrite the data file if it exists
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		If FileExists(c.DataFile.Filename) Then
+			If ebYes <> MsgBox("WARNING: The data file and/or recovery file already exists:\nFILE: " & c.DataFile.Filename & "\n\nDo you want to overwrite?", ebYesNo + ebQuestion) Then
+				GoTo ExperimentAbort
+			End If
+		End If
+	End If
+
+	' Initialize all system devices, packages, and objects
+	InitDevices c
+	InitPackages c
+	InitObjects c
+
+	' If we are logging data, then open the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Open
+		c.LogHeader
+	End If
+
+	' Start the running of the Experiment
+	SessionProc.Run c
+
+	' Clean up the context and close the datafile
+	If CLng(c.GetAttrib("Subject")) <> 0 Then
+		c.DataFile.Close
+		' Attempt to convert the recovery file into a data file
+		Dim nConvert As Long
+		nConvert = c.DataFile.Convert(ebProgressSimple)
+		If nConvert = 0 Then
+			' Settings in E-Studio are set to not remove E-Recovery file
+		Else
+			' The datafile failed to convert!
+			MsgBox "ERROR: The datafile did not convert!\nFILE: " & c.DataFile.Filename & "\n\nIt is recommended that you recover your data with the E-Recovery utility"
+			MsgBox c.DataFile.GetLastErrorMessage()
+		End If
+	End If
+ExperimentFinish:
+
+	UnInitObjects
+
+	UnInitPackages
+	UnInitDevices
+
+ExperimentAbort:
+
+	' Clean up the context
+	c.PopFrame
+	Set c = Nothing
+	Set ebContext = Nothing
+
+	DestroyDefaultPort
+
+End Sub
+
+
+[DataSection_wholeexperiment(1)]
+Weight	Nested	Procedure	trialID	pic1	pic2	pic3	pos1	pos2	pos3	correctpos	correctname	n1	n2	n3	correctresponse
+1		explist	1	13	3	15	1	2	3	1	chain	chain	bandage	choker	j
+1		explist	2	27	28	53	3	1	2	2	kerchief	willow	kerchief	lamp	k
+1		explist	3	45	6	46	2	3	1	3	spray	bolster	statue	spray	l
+1		explist	4	3	15	21	1	2	3	1	bandage	bandage	choker	glove	j
+1		explist	5	8	32	14	1	2	3	1	bouquet	bouquet	perfume	chandelier	j
+1		explist	6	53	46	24	1	2	3	1	willow	willow	statue	hanky	j
+1		explist	7	30	2	20	2	3	1	3	necklace	ashtray	flask	necklace	l
+1		explist	8	42	7	27	3	1	2	2	scissors	kerchief	scissors	booze	k
+1		explist	9	50	20	2	1	2	3	1	vase	vase	flask	ashtray	j
+1		explist	10	38	8	50	1	2	3	1	radio	radio	bouquet	vase	j
+1		explist	11	4	47	31	3	1	2	2	basket	necktie	basket	suitcase	k
+1		explist	12	48	50	13	3	1	2	2	tablet	chain	tablet	vase	k
+1		explist	13	37	16	35	3	1	2	2	quilt	pitcher	quilt	cradle	k
+1		explist	14	22	34	47	2	3	1	3	goblet	pipe	suitcase	goblet	l
+1		explist	15	16	40	38	3	1	2	2	cradle	radio	cradle	rug	k
+1		explist	16	36	13	4	3	1	2	2	polish	basket	polish	chain	k
+1		explist	17	33	17	18	3	1	2	2	pillow	cushion	pillow	curtain	k
+1		explist	18	34	42	40	1	2	3	1	pipe	pipe	scissors	rug	j
+1		explist	19	25	1	8	2	3	1	3	helmet	apron	bouquet	helmet	l
+1		explist	20	1	54	9	1	2	3	1	apron	apron	worm	bunk	j
+1		explist	21	31	9	16	2	3	1	3	necktie	bunk	cradle	necktie	l
+1		explist	22	32	45	43	1	2	3	1	perfume	perfume	spray	scroll	j
+1		explist	23	26	43	42	3	1	2	2	hook	scissors	hook	scroll	k
+1		explist	24	46	26	3	3	1	2	2	statue	bandage	statue	hook	k
+1		explist	25	9	51	45	2	3	1	3	bunk	wardrobe	spray	bunk	l
+1		explist	26	21	39	7	2	3	1	3	glove	razor	booze	glove	l
+1		explist	27	54	27	5	1	2	3	1	worm	worm	kerchief	blanket	j
+1		explist	28	41	24	26	2	3	1	3	saber	hanky	hook	saber	l
+1		explist	29	44	10	37	3	1	2	2	slipper	quilt	slipper	cameo	k
+1		explist	30	52	22	36	3	1	2	2	wheat	polish	wheat	goblet	k
+1		explist	31	18	35	33	1	2	3	1	cushion	cushion	pitcher	pillow	j
+1		explist	32	17	21	48	1	2	3	1	curtain	curtain	glove	tablet	j
+1		explist	33	29	33	32	3	1	2	2	mattress	perfume	mattress	pillow	k
+1		explist	34	49	30	10	2	3	1	3	telephone	necklace	cameo	telephone	l
+1		explist	35	47	48	23	2	3	1	3	suitcase	tablet	hanger	suitcase	l
+1		explist	36	19	14	34	1	2	3	1	fan	fan	chandelier	pipe	j
+1		explist	37	7	12	39	2	3	1	3	booze	carafe	razor	booze	l
+1		explist	38	51	49	17	1	2	3	1	wardrobe	wardrobe	telephone	curtain	j
+1		explist	39	10	52	28	1	2	3	1	cameo	cameo	wheat	lamp	j
+1		explist	40	20	4	12	3	1	2	2	flask	carafe	flask	basket	k
+1		explist	41	43	53	29	2	3	1	3	scroll	willow	mattress	scroll	l
+1		explist	42	6	41	19	1	2	3	1	bolster	bolster	saber	fan	j
+1		explist	43	39	37	49	2	3	1	3	razor	quilt	telephone	razor	l
+1		explist	44	35	29	11	2	3	1	3	pitcher	mattress	cane	pitcher	l
+1		explist	45	12	5	44	3	1	2	2	carafe	slipper	carafe	blanket	k
+1		explist	46	28	31	25	3	1	2	2	lamp	helmet	lamp	necktie	k
+1		explist	47	24	11	30	2	3	1	3	hanky	cane	necklace	hanky	l
+1		explist	48	40	38	51	1	2	3	1	rug	rug	radio	wardrobe	j
+1		explist	49	23	18	52	2	3	1	3	hanger	cushion	wheat	hanger	l
+1		explist	50	2	44	1	3	1	2	2	ashtray	apron	ashtray	slipper	k
+1		explist	51	15	25	22	3	1	2	2	choker	goblet	choker	helmet	k
+1		explist	52	11	36	41	2	3	1	3	cane	polish	saber	cane	l
+1		explist	53	5	19	54	1	2	3	1	blanket	blanket	fan	worm	j
+1		explist	54	14	23	6	2	3	1	3	chandelier	hanger	bolster	chandelier	l\0
