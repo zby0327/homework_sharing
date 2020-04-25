@@ -339,10 +339,7 @@ classdef WinViewer < handle
             obj.hImage_instruction = imshow(imgMat_instruction_Scale,'parent',obj.hAxes_instruction);
             set(obj.hImage_instruction,'alphadata',alphaMat_instruction_Scale,'visible','off');
             
-            obj.hAxes_GSight = axes('parent',obj.hFigure);
-            set(obj.hAxes_GSight, 'units','pixels', 'position',obj.gunsightObj.rect_GSight);
-            obj.hImage_GSight = imshow(obj.gunsightObj.imgMatrix_GSight, 'parent',obj.hAxes_GSight);
-            set(obj.hImage_GSight,'alphadata',obj.gunsightObj.alphaMatrix_GSight);
+            
             
             
             obj.Update_rect_hAxes_ABird();
@@ -385,6 +382,11 @@ classdef WinViewer < handle
             alphaMat_click_Scale = imresize(Alphadata_click, [100 360]);
             obj.hImage_click = imshow(imgMat_click_Scale,'parent',obj.hAxes_click);
             set(obj.hImage_click, 'alphadata',alphaMat_click_Scale);
+            obj.hAxes_GSight = axes('parent',obj.hFigure);
+            set(obj.hAxes_GSight, 'units','pixels', 'position',obj.gunsightObj.rect_GSight);
+            obj.hImage_GSight = imshow(obj.gunsightObj.imgMatrix_GSight, 'parent',obj.hAxes_GSight);
+            set(obj.hImage_GSight,'alphadata',obj.gunsightObj.alphaMatrix_GSight);
+            set(obj.hFigure,'WindowButtonMotionFcn',@obj.hFigure_WindowButtonMotionFcn);
             pause(5);
             set(obj.hAxes_word,'visible','off');
             set(obj.hImage_word,'visible','off');
@@ -446,7 +448,7 @@ classdef WinViewer < handle
             obj.gunsightObj.addlistener('eResetGunSight',@obj.ReloadMagazine_Listener2eResetGunSight);
             obj.started=0;
             set(obj.hFigure,'WindowButtonDownFcn',@obj.hFgiure_WindowButtonDownFcn);
-            set(obj.hFigure,'WindowButtonMotionFcn',@obj.hFigure_WindowButtonMotionFcn);
+            
             set(obj.hFigure, 'DeleteFcn',@obj.hFigure_DeleteFcn);
             set(obj.hFigure,'WindowKeyPressFcn',@obj.hFigure_WindowKeyPressFcn);
             obj.gunsightObj.resetGunSight();
@@ -512,6 +514,8 @@ classdef WinViewer < handle
             obj.gunsightObj.isEnable = 0;
             start(obj.flyTimerObj);
             set(obj.hAxes_FlyAway, 'position',obj.rect_hAxes_FlyAway_inCenter);
+            set(obj.hImage_instruction,'visible','on');
+            
         end
         
         
